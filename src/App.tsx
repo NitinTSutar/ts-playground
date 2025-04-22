@@ -1,6 +1,7 @@
 import AdminInfo from "./Components/AdminInfo";
 import Button from "./Components/Button";
 import Counter from "./Components/Counter";
+import Form from "./Components/Form";
 import TodoList from "./Components/TodoList";
 import User from "./Components/User";
 import UserInfo from "./Components/UserInfo";
@@ -34,6 +35,8 @@ const App = () => {
             <AdminInfo admin={admin} />
             <Counter />
             <TodoList />
+            <Form />
+
         </div>
     );
 };
