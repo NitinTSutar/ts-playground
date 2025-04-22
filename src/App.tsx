@@ -1,5 +1,6 @@
 import AdminInfo from "./Components/AdminInfo";
 import Button from "./Components/Button";
+import Counter from "./Components/Counter";
 import User from "./Components/User";
 import UserInfo from "./Components/UserInfo";
 import { Info, AdminInfoList } from "./types";
@@ -30,6 +31,7 @@ const App = () => {
             />
             <UserInfo user={user} />
             <AdminInfo admin={admin} />
+            <Counter />
         </div>
     );
 };
